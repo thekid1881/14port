@@ -1,24 +1,23 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function HomeHeader() {
     return (
-        <div className="h-full w-screen justify-end text-end p-5">
+        <div className="h-full w-screen justify-end text-end -indent-8 flex items-center">
             <Link
                 href="/about"
-                className="text-black hover:cursor-pointer hover:text-[#F1E3E0] text-3xl font-bold p-2 mx-7 rounded-md"
+                className="text-menu"
             >
                 About
             </Link>
             <Link
                 href="/work"
-                className="text-black hover:cursor-pointer hover:text-[#F1E3E0] text-3xl font-bold p-2 mx-7 rounded-md"
+                className="text-menu"
             >
                 Work
             </Link>
             <Link
                 href="/contact"
-                className="text-black hover:cursor-pointer hover:text-[#F1E3E0] text-3xl font-bold p-2 mx-7 rounded-md"
+                className="text-menu"
             >
                 Contact
             </Link>

@@ -2,7 +2,6 @@
 
 import PageHeader from "@/components/PageHeader";
 import ContactForm from "@/components/ContactForm";
-import Footer from "@/components/Footer";
 import ContactMessage from "@/components/ContactMessage";
 
 export default function Contact() {
@@ -15,7 +14,6 @@ export default function Contact() {
         </div>
         <ContactMessage />
       </div>
-      <Footer />
     </div>
   );
 }

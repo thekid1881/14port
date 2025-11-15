@@ -4,7 +4,7 @@ export const slidesData = [
     detail: [
       "clean, modern, mobile-friendly design",
       "brand consistent colors, fonts, and images",
-      "strong hero section with clear value proposition",
+      "strong hero section with clear value",
       "strategically placed CTAs and lead magnets",
       "optimized assets for fast performance",
       "content and metadata for improved SEO",

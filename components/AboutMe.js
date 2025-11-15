@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function AboutMe() {
     return (
-        <div className="leading-relaxed max-w-2xl mx-auto text-center justify-self-center text-3xl">
+        <div className="leading-relaxed py-4 px-12 rounded-md max-w-2xl mx-auto text-center justify-self-center text-3xl bg-[#f7f9f994]">
             <span className="text-heading">Hi!</span>I'm Sarah Bill.<br/>
             I've been a web developer<br/>
             for over 10 years<br/>

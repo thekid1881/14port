@@ -33,4 +33,7 @@ body {
   .text-heading {
     @apply font-bold text-5xl tracking-widest;
   }
+  .text-menu {
+    @apply text-black hover:cursor-pointer hover:text-[#F1E3E0] text-3xl font-bold mx-8 px-4 rounded-md;
+  }
 }
